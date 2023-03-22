@@ -1,0 +1,122 @@
+.login-page {
+    background-color: #1A65AE;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin-bottom: 1em;
+}
+
+.account-page {
+    background-color: #1A65AE;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-username,
+.create-password {
+    margin-bottom: 1em;
+}
+
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A65AE;
+    color: #fff;
+}
+
+.home-btn {
+    width: 7em;
+    height: 3em;
+    margin-bottom: .8em;
+    background-color: #BA0080;
+    color: #fff;
+    border-radius: 1.5em;
+    box-shadow: 0 0 10px #fff;
+}
+
+.send-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A65AE;
+    color: #fff;
+}
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    align-items: center;
+}
+
+.to-field {
+    margin-bottom: 1em;
+}
+
+.message-field {
+    margin-bottom: 1em
+}
+
+.back-btn {
+    width: 7em;
+    height: 3em;
+    margin-bottom: .8em;
+    background-color: #ca0022;
+    color: #fff;
+    border-radius: 1.5em;
+    box-shadow: 0 0 10px #fff;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1em;
+}
+
+
+.inbox-wrapper {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inbox-btn-container {
+    display: flex;
+    gap: 1em;
+}
+
+
+.email-item {
+    background-color: #1A65AE;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em ;
+    margin: 1em;
+    width: 80%;
+}
+
+.email-title {
+    margin: .4em 0 ;
+}
+
+.email-content{
+    margin: 0;
+    margin-bottom: .4em;
+}
